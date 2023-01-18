@@ -41,99 +41,98 @@
 
 /* Slick way of calling the parent without having to add a special class to it */
 :is(.row):has(.col--offer) {
-    justify-items: center;
-    padding-top: 40rem;
+  justify-items: center;
+  padding-top: 40rem;
 }
 
 .col--offer {
-    padding: 16rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 100%;
-    max-width: 640rem;
+  padding: 16rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  max-width: 640rem;
 }
 
 .col--offer i {
-    font-size: 20rem;
-    border-radius: 100rem;
-    background-color: var(--light-blue);
-    width: 60rem;
-    height: 60rem;
-    line-height: 60rem;
-    text-align: center;
-    color: var(--blue);
+  font-size: 20rem;
+  border-radius: 100rem;
+  background-color: var(--light-blue);
+  width: 60rem;
+  height: 60rem;
+  line-height: 60rem;
+  text-align: center;
+  color: var(--blue);
 }
 
 .col--offer h3 {
-    font-size: 18rem;
-    font-weight: normal;
-    margin-block: 25rem;
+  font-size: 18rem;
+  font-weight: normal;
+  margin-block: 25rem;
 }
 
 .col--offer ul {
-    margin-bottom: 25rem;
+  margin-bottom: 25rem;
 }
 
 .col--offer strong {
-    font-size: 33rem;
-    font-weight: 100;
-    color: var(--blue);
+  font-size: 33rem;
+  font-weight: 100;
+  color: var(--blue);
 }
-
 
 @media (max-width: 768px) {
-    ul,p {
-        font-size: 14rem;
-        line-height: 24rem;
-    }
+  ul,
+  p {
+    font-size: 14rem;
+    line-height: 24rem;
+  }
 
-    .col--offer ul {
-        margin-bottom: 15rem;
-    }
+  .col--offer ul {
+    margin-bottom: 15rem;
+  }
 
-    .col--offer h3 {
-        margin-block: 15rem;
-    }
+  .col--offer h3 {
+    margin-block: 15rem;
+  }
 
-    .section--hero p {
-        font-size: 18rem;
-        line-height: 28rem;
-      }
+  .section--hero p {
+    font-size: 18rem;
+    line-height: 28rem;
+  }
 
-    .section {
-        padding-block: 40rem;
-    }
+  .section {
+    padding-block: 40rem;
+  }
 
-    button, .button {
-        margin-top: 15rem;
-    }
+  button,
+  .button {
+    margin-top: 15rem;
+  }
 
-    .col--offer {
-        width: 100%;
-        max-width: 100%;
-        margin-top: auto;
-    }
+  .col--offer {
+    width: 100%;
+    max-width: 100%;
+    margin-top: auto;
+  }
 
-    :is(.row):has(.col--offer) {
-        padding-top: 20rem;
-    }
-    
+  :is(.row):has(.col--offer) {
+    padding-top: 20rem;
+  }
 }
 
-
 @media (max-width: 1024px) {
-    .section--hero {
-        padding-block: 16rem 50rem;
-    }
+  .section--hero {
+    padding-block: 16rem 50rem;
+  }
 
-    .section--hero img {
-        margin-block: 30rem;
-    }
+  .section--hero img {
+    margin-block: 30rem;
+  }
 
-    .hero-image {
-        display: none;
-    }
+  .hero-image {
+    display: none;
+  }
 
-    .section--hero {
-        padding-block: 40rem 100rem;
-    }
+  .section--hero {
+    padding-block: 40rem 100rem;
+  }
 }

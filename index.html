@@ -32,7 +32,7 @@
                 <div class="col col--size-l-6 d-inline-flex content-center align-left">
                   <h1>Surge Protection Plans</h1>
                   <p>When bad weather threatens your electronics and appliances. Direct Energy Surge Protect provided by Allied Warranty will make sure you are protected with our surge protection plans.</p>
-                  <a href="#" class="button button--outline button--border-color-blue">Learn More</a>
+                  <a href="#spp" class="button button--outline button--border-color-blue" aria-label="Learn more about Surge Protection Plans">Learn More</a>
                 </div>
                 <div class="col col--size-l-6 d-inline-flex content-center align-right-l align-center hero-image">
                   <img src="./img/man-on-cpu-potatoa.webp" alt="Man on computer" />
@@ -41,7 +41,7 @@
         </div>
     </div>
 
-    <div class="section spp-section">
+    <div class="section spp-section" id="spp">
       <div class="container">
         <div class="row">
           <div class="col d-inline-flex content-center text-center">
@@ -61,6 +61,7 @@
         </div>
         <div class="row">
           <div class="col col--offer col--size-m-6 d-inline-flex content-center">
+            <!-- Icon has been hidden from the screen reader as they are not needed. Saves time for those using screen readers. -->
             <i class="fa-regular fa-plug-circle-bolt" aria-hidden="true"></i>
             <h3>Direct Energy $1000-Surge Protect</h3>
             <ul>
@@ -68,27 +69,27 @@
               <li>Up to $1000 in annual coverage</li>
               <li>Low monthly fee, conveniently added right to your Direct Energy bill</li>
             </ul>
-            <strong>$6.99 /mo</strong>
-            <a href="#" class="button button--primary">Select Offer</a>
+            
+            <!-- Because screen reader will read this as "$6.99 / M O, strong" it has been hidden from the screen reader and added to the label of the select offer to make more sense contextually -->
+            <strong aria-hidden="true">$6.99 /mo</strong>
+            <a href="#" class="button button--primary" title="Select offer for $6.99" aria-label="Select Direct Energy $2000-Surge Protect Offer for $6.99 per month">Select Offer</a>
           </div>
           <div class="col col--offer col--size-m-6 d-inline-flex content-center">
+            <!-- Icon has been hidden from the screen reader as they are not needed. Saves time for those using screen readers. -->
             <i class="fa-regular fa-plug-circle-bolt" aria-hidden="true"></i>
-            <h3>Direct Energy $1000-Surge Protect</h3>
+            <h3>Direct Energy $2000-Surge Protect</h3>
             <ul>
               <li>No service call fee, no long term contract, no pre-inspection required</li>
               <li>Up to $1000 in annual coverage</li>
               <li>Low monthly fee, conveniently added right to your Direct Energy bill</li>
             </ul>
-            <strong>$6.99 /mo</strong>
-            <a href="#" class="button button--primary">Select Offer</a>
+
+            <!-- Because screen reader will read this as "$9.99 / M O, strong" it has been hidden from the screen reader and added to the label of the select offer to make more sense contextually -->
+            <strong aria-hidden="true">$9.99 /mo</strong>
+            <a href="#" class="button button--primary" title="Select offer for $9.99" aria-label="Select Direct Energy $2000-Surge Protect Offer for $9.99 per month">Select Offer</a>
           </div>
         </div>
       </div>
     </div>
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="./js/nrg.js"></script>
   </body>
 </html>

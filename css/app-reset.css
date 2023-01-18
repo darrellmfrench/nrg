@@ -46,6 +46,7 @@
 
 html {
   font-size: 1px; /*for using REM units 1px sets html so that 16rem = 16px, this value can also be set to 62.5% That would make 16px = 1.6rem */
+  scroll-behavior: smooth;
 }
 
 body {
