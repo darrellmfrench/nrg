@@ -1,0 +1,133 @@
+.section {
+  padding-block: 80rem;
+  padding-inline: 16rem;
+}
+
+.section--hero {
+  width: 100%;
+  background: url("../img/gray-curve.svg") no-repeat bottom center var(--gray);
+  background-size: contain;
+  padding-block: 80rem 230rem;
+}
+
+.section--hero p {
+  font-size: 20rem;
+}
+
+.section--hero img {
+  max-width: 480rem;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin-inline: auto;
+}
+
+.container h1 {
+  font-size: 46rem;
+}
+
+.container h2 {
+  font-size: 40rem;
+  color: var(--blue);
+}
+
+.container h3 {
+  font-size: 25rem;
+  color: var(--blue);
+}
+
+/* Slick way of calling the parent without having to add a special class to it */
+:is(.row):has(.col--offer) {
+    justify-items: center;
+    padding-top: 40rem;
+}
+
+.col--offer {
+    padding: 16rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: fit-content;
+}
+
+.col--offer i {
+    font-size: 20rem;
+    border-radius: 100rem;
+    background-color: var(--light-blue);
+    width: 60rem;
+    height: 60rem;
+    line-height: 60rem;
+    text-align: center;
+    color: var(--blue);
+}
+
+.col--offer h3 {
+    font-size: 18rem;
+    font-weight: normal;
+    margin-block: 25rem;
+}
+
+.col--offer ul {
+    margin-bottom: 25rem;
+}
+
+.col--offer strong {
+    font-size: 33rem;
+    font-weight: 100;
+    color: var(--blue);
+}
+
+
+@media (max-width: 768px) {
+    ul,p {
+        font-size: 14rem;
+        line-height: 24rem;
+    }
+
+    .col--offer ul {
+        margin-bottom: 15rem;
+    }
+
+    .col--offer h3 {
+        margin-block: 15rem;
+    }
+
+    .section--hero p {
+        font-size: 18rem;
+        line-height: 28rem;
+      }
+
+    .section {
+        padding-block: 40rem;
+    }
+
+    button, .button {
+        margin-top: 15rem;
+    }
+
+    .col--offer {
+        width: 100%;
+        margin-top: auto;
+    }
+    
+}
+
+
+@media (max-width: 1024px) {
+    .section--hero {
+        padding-block: 16rem 50rem;
+    }
+
+    .section--hero img {
+        margin-block: 30rem;
+    }
+
+    .hero-image {
+        display: none;
+    }
+
+    .section--hero {
+        padding-block: 40rem 100rem;
+    }
+}
