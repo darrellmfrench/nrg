@@ -15,7 +15,7 @@
 }
 
 .section--hero img {
-  max-width: 480rem;
+  padding-inline: 40rem;
   width: 100%;
 }
 
@@ -48,7 +48,8 @@
 .col--offer {
     padding: 16rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: fit-content;
+    width: 100%;
+    max-width: 640rem;
 }
 
 .col--offer i {
@@ -108,7 +109,12 @@
 
     .col--offer {
         width: 100%;
+        max-width: 100%;
         margin-top: auto;
+    }
+
+    :is(.row):has(.col--offer) {
+        padding-top: 20rem;
     }
     
 }
